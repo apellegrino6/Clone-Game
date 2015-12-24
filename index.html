@@ -68,8 +68,7 @@
 		}
 	</style>
 	<script>
-
-		function addEvent(element, event, delegate ) {
+        function addEvent(element, event, delegate ) {
 			if (typeof (window.event) != 'undefined' && element.attachEvent)
 				element.attachEvent('on' + event, delegate);
 			else
@@ -257,6 +256,9 @@
 </head>
 <body>
     <div id="page">
+        <audio autoplay loop>
+          <source src="audio/music.mp3" type="audio/mpeg">
+        </audio>
 		<section id="game">
 			<span class="score">0</span>
 			<span class="time">0</span>
