@@ -144,6 +144,7 @@
 				}, ttl)
 			}
 
+            <!-- parse high score keeper -->
 			function HighScores() {
 				if(typeof(Storage)!=="undefined"){
 					var scores = false;
@@ -164,7 +165,7 @@
 					high_scores.style.display = "none";
 				}
 			}
-            <!-- parse high score keeper -->
+
 			function UpdateScore() {
 				if(typeof(Storage)!=="undefined"){
 					var current = parseInt(score.innerHTML);
