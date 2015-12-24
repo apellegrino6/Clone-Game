@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>HTML 5 Gem Game</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 
 	<style>
 		section#game {
@@ -13,7 +13,7 @@
 			max-height: 100%;
 			overflow: hidden;
 			position: relative;
-			background-image: url('Tree Short.png'), url('Tree Tall.png'), url('Grass Block.png'), url('Sky.png');
+			background-image: url('img/Tree Short.png'), url('img/Tree Tall.png'), url('img/Grass Block.png'), url('img/Sky.png');
 			background-position: 80% 90%, 10% 90%, left bottom, left top;
 			background-repeat: no-repeat, no-repeat, repeat-x, repeat-x;
 			position: relative;
@@ -58,15 +58,15 @@
 		}
 
 		section#game .gem.green{
-			background: url('Gem Green.png') no-repeat top left;
+			background: url('img/Gem Green.png') no-repeat top left;
 		}
 
 		section#game .gem.blue{
-			background: url('Gem Blue.png') no-repeat top left;
+			background: url('img/Gem Blue.png') no-repeat top left;
 		}
 
 		section#game .gem.orange{
-			background: url('Gem Orange.png') no-repeat top left;
+			background: url('img/Gem Orange.png') no-repeat top left;
 		}
 	</style>
 	<script>
@@ -165,7 +165,7 @@
 					high_scores.style.display = "none";
 				}
 			}
-
+            <!-- parse high score keeper -->
 			function UpdateScore() {
 				if(typeof(Storage)!=="undefined"){
 					var current = parseInt(score.innerHTML);
