@@ -104,11 +104,18 @@
 				if(target.className.indexOf('gem') > -1){
 					var value = parseInt(target.getAttribute('data-value'));
 					var current = parseInt( score.innerHTML );
-                    var audio = new Audio('music/blaster.mp3');
-                    audio.play();
-					score.innerHTML = current + value;
-					target.parentNode.removeChild(target);
-				}
+                    if(value > 30){
+                        var audio = new Audio('music/scream.mp3');
+                        audio.play();
+                        time.innerHTML = 0;
+                    }
+                    else {
+                        var audio = new Audio('music/blaster.mp3');
+                        audio.play();
+                        score.innerHTML = current + value;
+                        target.parentNode.removeChild(target);
+				    }
+                }
 
 				return false;
 			}
