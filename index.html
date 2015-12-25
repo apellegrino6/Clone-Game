@@ -107,7 +107,8 @@
                     if(value > 30){
                         var audio = new Audio('music/scream.mp3');
                         audio.play();
-                        time.innerHTML = 0;
+                        score.innerHTML = current - value;
+                        target.parentNode.removeChild(target);
                     }
                     else {
                         var audio = new Audio('music/blaster.mp3');
