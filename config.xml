@@ -14,15 +14,30 @@
 
    <preference name="target-device" value="universal" />
 
+    <preference name="Orientation" value="portrait" />
+
    <access origin="*" />
 
-   <!-- Icons -->
+
 
     <platform name="android">
         <icon src="img/android/ldpi.png" density="ldpi" />
         <icon src="img/android/mdpi.png" density="mdpi" />
         <icon src="img/android/icon-72x72.png" density="hdpi" />
         <icon src="img/android/icon-96x96.png" density="xhdpi" />
+
+        <gap:splash src="img/splash.png" />
+        <gap:splash src="img/splash-240x320.png" gap:platform="android" gap:density="ldpi" />
+        <gap:splash src="img/splash-320x480.png" gap:platform="android" gap:density="mdpi" />
+        <gap:splash src="img/splash-480x800.png" gap:platform="android" gap:density="hdpi" />
+        <gap:splash src="img/splash-640x960.png" gap:platform="android" gap:density="xhdpi" />
+        <gap:splash src="img/splash-960x1600.png" gap:platform="android" gap:density="xxhdpi" />
+
+    </platform>
+
+    <platform name="windows">
+
+
     </platform>
 
     <platform name="ios">
@@ -52,17 +67,29 @@
         <!-- iPad Spotlight and Settings Icon -->
         <icon src="img/ios/icon-50.png" width="50" height="50" />
         <icon src="img/ios/icon-50@2x.png" width="100" height="100" />
+
+        <!-- iPhone and iPod touch -->
+        <splash src="Default.png" platform="ios" width="320" height="480" />
+        <splash src="Default@2x.png" platform="ios" width="640" height="960" />
+
+        <!-- iPhone 5 / iPod Touch (5th Generation) -->
+        <splash src="Default-568h@2x.png" platform="ios" width="640" height="1136" />
+
+        <!-- iPhone 6 -->
+        <splash src="Default-667h@2x.png" platform="ios" width="750" height="1334" />
+        <splash src="Default-Portrait-736h@3x.png" platform="ios" width="1242" height="2208" />
+        <splash src="Default-Landscape-736h@3x.png" platform="ios" width="2208" height="1242" />
+
+        <!-- iPad -->
+        <splash src="Default-Portrait.png" platform="ios" width="768" height="1024" />
+        <splash src="Default-Landscape.png" platform="ios" width="1024" height="768" />
+
+        <!-- Retina iPad -->
+        <splash src="Default-Portrait@2x.png" platform="ios" width="1536" height="2048" />
+        <splash src="Default-Landscape@2x.png" platform="ios" width="2048" height="1536" />
     </platform>
 
 
-
-    <!-- Splash Screens -->
-    <gap:splash src="img/splash.png" />
-    <gap:splash src="img/splash-240x320.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="img/splash-320x480.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="img/splash-480x800.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="img/splash-640x960.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="img/splash-960x1600.png" gap:platform="android" gap:density="xxhdpi" />
 
 
 </widget>
