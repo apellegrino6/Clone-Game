@@ -4,9 +4,9 @@
         id        = "com.audero.free.utility.currencyconverter"
         version   = "1.0.0">
 
-   <name>Game</name>
+   <name>Attack on Clones</name>
 
-   <description>This is a project game I am making to fiddle around with PhoneGap HTML5 games.</description>
+   <description>This is a project game I am making to fiddle around with PhoneGap HTML5 games. The goal is to defeat as many clones as possible to preserve the jobs of hard working stormtroopers.</description>
 
    <author href="http://www.alessiopellegrino.com" email="apellegrino6@gmail.com">Alessio Pellegrino</author>
 
