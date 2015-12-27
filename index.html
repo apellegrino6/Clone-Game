@@ -4,9 +4,6 @@
   <meta charset="utf-8">
   <title>Page Split</title>
 
-
-
-
         <style>
 
         body {
@@ -14,6 +11,7 @@
             height: 100%;
             overflow: hidden;
             font-size: 29px;
+            background-color: black;
 			font-family: "arial,sans-serif";
         }
 
@@ -59,17 +57,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="intro">
-            <img src="img/crawl.PNG">
-        </div>
-        <a href="cont.html"><div class="left" >
-        <h1><a href="cont.html">Continuous <br>Game Play</h1>
-        </div></a>
-        <a href="limit.html"><div class="right">
-        <h1>10 Second<br>Challenge</h1>
-            </div></a>
+
+    <table>
+      <tr>
+        <td colspan="2"><img src="img/crawl.PNG"></td>
+      </tr>
+      <tr>
+        <td class="left"><h1><a href="cont.html">Continuous <br>Game Play</a></h1></td>
+        <td class="right"><a href="limit.html"><h1>10 Second<br>Challenge</h1></td>
+      </tr>
+    </table>
+
 
     </div>
+
 
 </body>
 </html>
