@@ -7,11 +7,17 @@
         <style>
 
         body {
-            margin: 0;
-            max-height: 100%;
-            max-width: 100%;
-            font-size: 29px;
-            background-color: black;
+width: 768px;
+			height: 1024px;
+			max-width: 100%;
+			max-height: 100%;
+			overflow: hidden;
+			position: relative;
+			background-image: url('img/crawlsplash.png');
+            background-size: 100%;
+			position: fixed;
+			color: #ffffff;
+			font-size: 29px;
 			font-family: "arial,sans-serif";
 
         }
@@ -23,29 +29,23 @@
             margin-right: auto;
         }
 
-        .intro {
-            background-color: black;
-            width: 100%;
-            height: 60%;
-            position: fixed;
-            background-image:url(img/crawl.PNG);
-            background-size: 100% 100%;
-        }
+
 
         .left {
             float:left;
             width:50%;
-            position: absolute;
+            position: fixed;
             top: 60%;
             bottom: 0px;
             background-image:url(img/homeLeft.png);
             background-size: 100% 100%;
             border: 10px solid black;
+
         }
         .right {
             float:right;
             width:50%;
-            position: absolute;
+            position: fixed;
             top: 60%;
             bottom: 0px;
             margin-left: 50%;
@@ -67,10 +67,6 @@
 </head>
 <body>
 
-
-        <div class="intro">
-
-        </div>
 
             <div class="left">
                 <h4><a href="cont.html">Continuous <br>Game Play<br><small>(time killer)</small></a></h4>
