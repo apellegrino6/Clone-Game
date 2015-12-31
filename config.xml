@@ -16,7 +16,8 @@
    <preference name="target-device" value="universal" />
 
     <preference name="Orientation" value="portrait" />
-    <preference name="DisallowOverscroll" value="true" />
+<preference name="DisallowOverscroll" value="true" />
+    <preference name="UIWebViewBounce" value="false" />
 
    <access origin="*" />
 
