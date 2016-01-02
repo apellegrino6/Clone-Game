@@ -21,10 +21,10 @@
 
    <access origin="*" />
 
-<icon src="img/icon.png" width="64" height="64" gap:role="default" />
-   <icon src="img/icon.png" width="72" height="72" gap:platform="android" gap:density="hdpi" />
-   <icon src="img/icon.png" width="96" height="96" gap:platform="android" gap:density="xhdpi" />
-   <icon src="img/icon.png" width="72" height="72" gap:platform="ios" />
+<icon src="img/icon3.png" width="64" height="64" gap:role="default" />
+   <icon src="img/icon3.png" width="72" height="72" gap:platform="android" gap:density="hdpi" />
+   <icon src="img/icon3.png" width="96" height="96" gap:platform="android" gap:density="xhdpi" />
+   <icon src="img/icon3.png" width="72" height="72" gap:platform="ios" />
 
 
 
