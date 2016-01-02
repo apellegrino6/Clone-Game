@@ -6,48 +6,45 @@
 
         <style>
 
-        body {
-width: 768px;
-			height: 1024px;
-			max-width: 100%;
-			max-height: 100%;
+        html, body {
+            margin: 0;
+            height: 100%;
+            width: 100%;
 			overflow: hidden;
 			position: relative;
-			background-image: url('img/crawlsplash.png');
+			background-image: url('img/crawlsplash2.png');
             background-size: 100%;
 			position: fixed;
 			color: #ffffff;
 			font-size: 29px;
 			font-family: "arial,sans-serif";
+            margin-right: 10px;
 
         }
 
-        img {
-            max-width: 100%;
-            display: inherit;
-            margin-left: auto;
-            margin-right: auto;
-        }
+
 
 
 
         .left {
-            float:left;
-            width:50%;
+            float: left;
+            width: 48%;
             position: fixed;
             top: 60%;
-            bottom: 0px;
+            bottom: 10px;
+            left: 10px;
             background-image:url(img/homeLeft.png);
             background-size: 100% 100%;
             border: 10px solid black;
 
         }
         .right {
-            float:right;
-            width:50%;
+            float: right;
+            width: 48%;
             position: fixed;
             top: 60%;
-            bottom: 0px;
+            bottom: 10px;
+            right: 10px;
             margin-left: 50%;
             background-image:url(img/homeRight.png);
             background-size: 100% 100%;
@@ -58,6 +55,18 @@ width: 768px;
             margin-top: 50%;
         }
 
+        .animate-pg {
+            position: fixed;
+            top: 2%;
+            right: 20px;
+            margin-left: 50%;
+            color: yellow;
+        }
+
+            .animate.a {
+                text-decoration-color: yellow;
+            }
+
         a {
             text-decoration: none;
             color: white;
@@ -67,7 +76,7 @@ width: 768px;
 </head>
 <body>
 
-
+            <div class="animate-pg"><a href="crawl.html">Animate!</a></div>
             <div class="left">
                 <h4><a href="cont.html">Continuous <br>Game Play<br><small>(time killer)</small></a></h4>
             </div>
